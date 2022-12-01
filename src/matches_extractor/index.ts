@@ -1,1 +1,1 @@
-export * from './extractMatches';
+export { extractMatches } from './extractMatches';
