@@ -12,13 +12,13 @@ describe('extract matches', () => {
   it('extracts all matches from single date', () => {
     const mockMatches: Match[] = [
       {
-        date: new Date('11.12.2022 13:30'),
+        date: new Date('2022.12.11 13:30'),
         teamA: { name: 'KINGS' },
         teamB: { name: 'TORPEDA' },
         link: 'https://polskihokej.com/games/22100',
       },
       {
-        date: new Date('11.12.2022 15:30'),
+        date: new Date('2022.12.11 15:30'),
         teamA: { name: 'CAPITALS' },
         teamB: { name: 'TORPEDA' },
         link: 'https://polskihokej.com/games/22110',
@@ -38,13 +38,13 @@ describe('extract matches', () => {
     const mockMatches: Match[][] = [
       [
         {
-          date: new Date('10.12.2022 13:30'),
+          date: new Date('2022.12.10 13:30'),
           teamA: { name: 'KINGS' },
           teamB: { name: 'TORPEDA' },
           link: 'https://polskihokej.com/games/22100',
         },
         {
-          date: new Date('10.12.2022 15:30'),
+          date: new Date('2022.12.10 15:30'),
           teamA: { name: 'CAPITALS' },
           teamB: { name: 'TORPEDA' },
           link: 'https://polskihokej.com/games/22110',
@@ -52,13 +52,13 @@ describe('extract matches', () => {
       ],
       [
         {
-          date: new Date('11.12.2022 13:30'),
+          date: new Date('2022.12.11 13:30'),
           teamA: { name: 'KINGS' },
           teamB: { name: 'TORPEDA' },
           link: 'https://polskihokej.com/games/22100',
         },
         {
-          date: new Date('11.12.2022 15:30'),
+          date: new Date('2022.12.11 15:30'),
           teamA: { name: 'CAPITALS' },
           teamB: { name: 'TORPEDA' },
           link: 'https://polskihokej.com/games/22110',
@@ -66,13 +66,13 @@ describe('extract matches', () => {
       ],
       [
         {
-          date: new Date('17.12.2022 13:30'),
+          date: new Date('2022.12.17 13:30'),
           teamA: { name: 'KINGS' },
           teamB: { name: 'TORPEDA' },
           link: 'https://polskihokej.com/games/22100',
         },
         {
-          date: new Date('17.12.2022 15:30'),
+          date: new Date('2022.12.17 15:30'),
           teamA: { name: 'CAPITALS' },
           teamB: { name: 'TORPEDA' },
           link: 'https://polskihokej.com/games/22110',

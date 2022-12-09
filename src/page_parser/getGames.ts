@@ -1,7 +1,7 @@
 import { IncomingMessage } from 'http';
 import https from 'https';
 
-export function getGames(): Promise<string> {
+export function getGames(url: string): Promise<string> {
   const games = new Promise<string>((resolve, reject) => {
     function callback(res: IncomingMessage) {
       let str = '';
@@ -11,12 +11,7 @@ export function getGames(): Promise<string> {
       res.on('error', (err) => reject(err));
       res.on('end', () => resolve(str));
     }
-    https
-      .get(
-        'https://polskihokej.eu/games/schedule/3-liga-mazowiecka/8',
-        callback,
-      )
-      .end();
+    https.get(url, callback).end();
   });
 
   return games;

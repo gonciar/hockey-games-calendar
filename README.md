@@ -1,4 +1,5 @@
 # Yet to be done
+- [ ] add league and sort
 - [ ] email on failure
 - [ ] email with summary of events happening next weekend
 - [ ] email on new event added?
