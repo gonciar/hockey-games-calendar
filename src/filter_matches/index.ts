@@ -1,0 +1,1 @@
+export { filterMatches } from './filterMatches';
