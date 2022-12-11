@@ -102,9 +102,9 @@ describe('extract matches', () => {
   // it('does not crash on zero matches', () => {
 
   // })
-  it('skips cancelled matches', () => {
+  // it('skips cancelled matches', () => {
 
-  })
+  // })
   // it('can handle multiple seasons', () => {
 
   // })
